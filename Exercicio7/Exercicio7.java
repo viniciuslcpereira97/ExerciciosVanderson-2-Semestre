@@ -8,12 +8,12 @@ public class Exercicio7{
 		JOptionPane.showMessageDialog(null, retornaValor(x,y));
 	}
 
-	public static boolean retornaValor(int x, int y){
+	public static int retornaValor(int x, int y){
 		if(x % y == 0){
-			return true;
+			return 1;
 		}
 		else{
-			return false;
+			return 0;
 		}
 	}
 }

@@ -8,7 +8,7 @@ public class Exercicio1 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		int resp = 0 ;
-		resp = JOptionPane.showInputDialog("Deseja executar? Digite 1 para executar ou 0 para sair");
+		resp = Integer.parseInt(JOptionPane.showInputDialog("Deseja executar? Digite 1 para executar ou 0 para sair"));
 		if(resp==1){
 			int n=0;
 			n = Integer.parseInt(JOptionPane.showInputDialog("Digite um número correspondente a um mês"));
